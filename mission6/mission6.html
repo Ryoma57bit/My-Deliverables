@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo</title>
+</head>
+<body>
+    <center>
+        <fieldset style="background-color: rgba(255, 255, 255, 0.7); max-width: 500px; margin-top: 60px; padding: 30px;">
+            <hr>
+            <h2>My Todo</h2>
+            
+            <input type="text" id="taskInput" placeholder="タスクを入力してください" size="30">
+            
+            <input type="datetime-local" id="deadline">
+            
+            <button id="Button">追加</button>
+            
+            <ul id="taskList" style="text-align: left; min-height: 100px;">
+            </ul>
+            
+            <hr>
+            <div>時間帯 : <span id="otutime">ここに表示</span></div>
+            <div>現在の天気 : <span id="otuWeather">ここに表示</span></div>
+        </fieldset>
+    </center>
+
+    <button id="deletebut" style="display: none;">削除</button>
+
+    <script src="mission6.js"></script>
+</body>
+</html>
